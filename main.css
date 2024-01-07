@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    background-color: rgb(26, 129, 154);
+    background-image: url("../img/tel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 150px;
+}
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 924px;
+    margin: 0 auto;
+    
+}
+
+.page{
+    height: 100vh;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+
+
+.page3{
+    background: rgb(2,0,36);
+    background: linear-gradient(196deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%); 
+}
